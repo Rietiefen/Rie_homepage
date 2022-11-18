@@ -55,6 +55,9 @@ h2.title {
   padding: 5px;
   border: 5px solid var(--primary-color);
 }
+.lptext {
+  font-family: var(--sub-font-family);
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -73,14 +76,16 @@ h2.title {
   background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: var(--sub-font-family);
 }
 .aboutme {
   font-size: 100px;
 }
 .about-link {
-  background: #ffbaba;
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: var(--sub-font-family);
 }
 .aboutpics img {
   height: 300px;
@@ -93,8 +98,14 @@ h2.title {
   display: flex;
   margin: 0.5px;
 }
+.about-paragraphs {
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(252, 238, 238, 0.8);
+}
 .abouttext {
-  font-size: 19px;
+  font-family: var(--sub-font-family);
 }
 .fashionable-box {
   font-size: 30px;
@@ -146,6 +157,7 @@ h2.title {
   border-color: var(--secondary-color);
   box-shadow: var(--box-shadow);
   padding: 18px;
+  font-family: var(--sub-font-family);
 }
 .btn.btn-primary > a {
   color: white;
@@ -155,4 +167,15 @@ h2.title {
 }
 .fa-poo {
   color: #ff7171;
+}
+
+/* contact.html */
+.form-group {
+  margin-top: 50px;
+  width: 400px;
+}
+.contacttext {
+  text-align: center;
+  font-family: var(--sub-font-family);
+  margin-top: 50px;
 }
