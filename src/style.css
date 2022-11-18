@@ -1,6 +1,6 @@
 :root {
   --primary-color: #fff4f6;
-  --secondary-color: #cc9595;
+  --secondary-color: #ff7171;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 * {
@@ -134,4 +134,7 @@ h2.title {
 }
 .contactme {
   font-size: 50px;
+}
+.fa-poo {
+  color: #ff7171;
 }
