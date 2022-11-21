@@ -167,6 +167,11 @@ h2.title {
   box-shadow: var(--box-shadow);
   padding: 18px;
   font-family: var(--sub-font-family);
+  text-decoration: none;
+}
+.btn.btn-primary:hover {
+  transform: translateY(-7px);
+  text-decoration: none;
 }
 .btn.btn-primary > a {
   color: white;
