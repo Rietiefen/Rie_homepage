@@ -171,7 +171,22 @@ h2.title {
 .hometownLP {
   margin-bottom: 50px;
 }
-
+.biodetails {
+  font-family: var(--sub-font-family);
+  font-size: 5em;
+  text-align: center;
+  line-height: 0.95em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 0.1em rgb(18, 12, 12);
+}
+#bioPhoto {
+  border-radius: 40px;
+  padding: 20px;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  margin: 50px auto;
+}
 /* contact.html */
 .form-group {
   margin-top: 50px;
@@ -192,6 +207,7 @@ h2.title {
 }
 .btn.submitbutton {
   padding: 10px 40px;
+  margin-bottom: 50px;
 }
 footer {
   padding: 10px;
