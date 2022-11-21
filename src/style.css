@@ -173,9 +173,27 @@ h2.title {
 .form-group {
   margin-top: 50px;
   width: 400px;
+  font-family: var(--sub-font-family);
 }
 .contacttext {
-  text-align: center;
-  font-family: var(--sub-font-family);
+  text-align: left;
+  font-family: var(--main-font-family);
+  font-size: 30px;
   margin-top: 50px;
+}
+.background {
+  background-image: url("/images/pink-background.jpg");
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.btn.submitbutton {
+  padding: 10px 40px;
+}
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: var(--primary-color);
+  font-family: var(--sub-font-family);
 }
