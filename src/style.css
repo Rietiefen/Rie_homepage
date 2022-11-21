@@ -172,6 +172,8 @@ h2.title {
 .btn.btn-primary:hover {
   transform: translateY(-7px);
   text-decoration: none;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 .btn.btn-primary > a {
   color: white;
