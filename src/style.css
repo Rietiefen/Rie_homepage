@@ -167,7 +167,6 @@ h2.title {
   box-shadow: var(--box-shadow);
   padding: 18px;
   font-family: var(--sub-font-family);
-  text-decoration: none;
 }
 .btn.btn-primary:hover {
   transform: translateY(-7px);
@@ -177,6 +176,7 @@ h2.title {
 }
 .btn.btn-primary > a {
   color: white;
+  text-decoration: none;
 }
 .contactme {
   font-size: 50px;
