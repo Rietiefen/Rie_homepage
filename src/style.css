@@ -78,6 +78,10 @@ h2.title {
   color: white;
   font-family: var(--sub-font-family);
 }
+.contact-link:hover {
+  transform: translateY(-7px);
+  text-decoration: none;
+}
 .aboutme {
   font-size: 100px;
 }
@@ -86,6 +90,11 @@ h2.title {
   box-shadow: var(--box-shadow);
   color: white;
   font-family: var(--sub-font-family);
+}
+.about-link:hover {
+  transform: translateY(-7px);
+  text-decoration: none;
+  color: rgb(30, 255, 0);
 }
 .aboutpics img {
   height: 300px;
