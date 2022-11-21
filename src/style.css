@@ -168,6 +168,9 @@ h2.title {
 .fa-poo {
   color: #ff7171;
 }
+.hometownLP {
+  margin-bottom: 50px;
+}
 
 /* contact.html */
 .form-group {
@@ -186,14 +189,16 @@ h2.title {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
 }
 .btn.submitbutton {
   padding: 10px 40px;
 }
 footer {
-  margin-top: 30px;
   padding: 10px;
   background-color: var(--primary-color);
   font-family: var(--sub-font-family);
+}
+/* thanks page */
+.thankspage {
+  height: 300px;
 }
